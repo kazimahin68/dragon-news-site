@@ -17,7 +17,7 @@ const LeftNav = () => {
         <div className='mt-5' style={{color: "#403F3F"}}>
             <h2 className='fs-5 fw-semibold mb-5'>All Category</h2>
             {
-                categories.map(category => <p key={category.id}><Link className='text-decoration-none text-secondary fs-5 dn-bg-color p-2 rounded text-wrap' to={`/category/${category.id}`}>{category.name}</Link>
+                categories.map(category => <p key={category.id}><Link className='text-decoration-none text-secondary fs-5 dn-bg-color p-2 rounded text-wrap' to={`/category/${category.id}`} >{category.name}</Link>
                 </p>)
             }
         </div>

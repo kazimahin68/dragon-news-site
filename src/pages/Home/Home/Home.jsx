@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import Category from '../Category/Category';
 
 const Home = () => {
     return (
         <div>
-            <h2>This Is Home Page....</h2>
+           <Category></Category>
         </div>
     );
 };
