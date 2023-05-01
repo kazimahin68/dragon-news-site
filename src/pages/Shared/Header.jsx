@@ -3,7 +3,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import moment from 'moment';
-import HomeMarquee from './HomeMarquee';
 
 const Header = () => {
     return (
