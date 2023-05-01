@@ -32,7 +32,6 @@ const RightNav = () => {
                     <img className='w-100' src={image3} alt="" />
                 </div>
             </div>
-            <Banner></Banner>
         </div>
     );
 };

@@ -7,12 +7,14 @@ import NavigationBar from '../pages/Shared/NavigationBar/NavigationBar';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../pages/Shared/LeftNav/LeftNav';
 import RightNav from '../pages/Shared/RightNav/RightNav';
+import Banner from '../pages/Shared/Banner/Banner';
+import HomeMarquee from '../pages/Shared/HomeMarquee';
 
 const Main = () => {
     return (
         <div className='container'>
-
             <Header></Header>
+            <HomeMarquee></HomeMarquee>
             <NavigationBar></NavigationBar>
             <Container>
                 <Row>
@@ -24,6 +26,7 @@ const Main = () => {
                     </Col>
                     <Col lg={3}>
                         <RightNav></RightNav>
+                        <Banner></Banner>
                     </Col>
                 </Row>
             </Container>

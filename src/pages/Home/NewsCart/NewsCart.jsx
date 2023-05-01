@@ -14,6 +14,7 @@ const NewsCart = ({ news }) => {
     const { author, details, category_id, image_url, title, thumbnail_url, rating, total_view, _id } = news;
     return (
         <div className='mt-5'>
+            <h2 className='mb-4 fs-4 fw-semibold'>Dragon News Home</h2>
             <Card className="text-start">
                 <Card.Header>
                     <div className='d-flex justify-content-between align-items-center'>
